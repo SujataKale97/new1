@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" parallel="classes" data-provider-thread-count="80" name="Failed suite [ BVT Test]" guice-stage="DEVELOPMENT" allow-return-values="true">
+  <test parallel="classes" name="Little Passport Service Execution(failed)">
+    <classes>
+      <class name="com.test.PaymentService">
+        <methods>
+          <include name="verifyBillplansContainsAddons"/>
+          <include name="updateBPRequest"/>
+          <include name="verifythepaymentserviceforthebillpayid"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="report_setUp"/>
+          <include name="verifyNoofPlansreceived"/>
+          <include name="verifythepaymentservicefortheInvalidbillpayid"/>
+          <include name="createsaleTransaction"/>
+          <include name="verifythepaymentservice"/>
+        </methods>
+      </class> <!-- com.test.PaymentService -->
+    </classes>
+  </test> <!-- Little Passport Service Execution(failed) -->
+</suite> <!-- Failed suite [ BVT Test] -->

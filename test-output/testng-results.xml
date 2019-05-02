@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-24T13:04:32Z" name=" BVT Test" finished-at="2019-04-24T13:04:51Z" duration-ms="18425">
+    <groups>
+      <group name="regression">
+        <method signature="PaymentService.createnewsubscriptionTransactionwithnewcustomerandcreditcard()[pri:11, instance:com.test.PaymentService@6f4a47c7]" name="createnewsubscriptionTransactionwithnewcustomerandcreditcard" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransaction_NewCustomer_NewCreaditcardRegistration()[pri:8, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransaction_NewCustomer_NewCreaditcardRegistration" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransaction_OldCustomer_NewCreaditcardRegistration()[pri:6, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransaction_OldCustomer_NewCreaditcardRegistration" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransactionforsimpleproductwithpaymentmethod()[pri:10, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransactionforsimpleproductwithpaymentmethod" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransactionforsubscriptionwithpaymentmethod()[pri:9, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransactionforsubscriptionwithpaymentmethod" class="com.test.PaymentService"/>
+        <method signature="PaymentService.updateBPRequest()[pri:7, instance:com.test.PaymentService@6f4a47c7]" name="updateBPRequest" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifyNoofPlansreceived()[pri:2, instance:com.test.PaymentService@6f4a47c7]" name="verifyNoofPlansreceived" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentservice()[pri:1, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentservice" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentservicefortheInvalidbillpayid()[pri:5, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentservicefortheInvalidbillpayid" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentserviceforthebillpayid()[pri:4, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentserviceforthebillpayid" class="com.test.PaymentService"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="PaymentService.createnewsubscriptionTransactionwithnewcustomerandcreditcard()[pri:11, instance:com.test.PaymentService@6f4a47c7]" name="createnewsubscriptionTransactionwithnewcustomerandcreditcard" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransaction_NewCustomer_NewCreaditcardRegistration()[pri:8, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransaction_NewCustomer_NewCreaditcardRegistration" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransaction_OldCustomer_NewCreaditcardRegistration()[pri:6, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransaction_OldCustomer_NewCreaditcardRegistration" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransactionforsimpleproductwithpaymentmethod()[pri:10, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransactionforsimpleproductwithpaymentmethod" class="com.test.PaymentService"/>
+        <method signature="PaymentService.createsaleTransactionforsubscriptionwithpaymentmethod()[pri:9, instance:com.test.PaymentService@6f4a47c7]" name="createsaleTransactionforsubscriptionwithpaymentmethod" class="com.test.PaymentService"/>
+        <method signature="PaymentService.updateBPRequest()[pri:7, instance:com.test.PaymentService@6f4a47c7]" name="updateBPRequest" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifyNoofPlansreceived()[pri:2, instance:com.test.PaymentService@6f4a47c7]" name="verifyNoofPlansreceived" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentservice()[pri:1, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentservice" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentservicefortheInvalidbillpayid()[pri:5, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentservicefortheInvalidbillpayid" class="com.test.PaymentService"/>
+        <method signature="PaymentService.verifythepaymentserviceforthebillpayid()[pri:4, instance:com.test.PaymentService@6f4a47c7]" name="verifythepaymentserviceforthebillpayid" class="com.test.PaymentService"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2019-04-24T13:04:32Z" name="Little Passport Service Execution" finished-at="2019-04-24T13:04:51Z" duration-ms="18425">
+      <class name="com.test.PaymentService">
+        <test-method is-config="true" signature="report_setUp()[pri:0, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:32Z" name="report_setUp" finished-at="2019-04-24T18:34:33Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report_setUp -->
+        <test-method signature="verifythepaymentservice()[pri:1, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:33Z" name="verifythepaymentservice" description="verifythepaymentservice" finished-at="2019-04-24T18:34:35Z" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythepaymentservice -->
+        <test-method signature="verifyNoofPlansreceived()[pri:2, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:35Z" name="verifyNoofPlansreceived" description="verifyNoofPlansreceived" finished-at="2019-04-24T18:34:38Z" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoofPlansreceived -->
+        <test-method signature="verifythepaymentserviceforthebillpayid()[pri:4, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:38Z" name="verifythepaymentserviceforthebillpayid" description="Verify respective billing details will be displayed in the response by passing the ID thru API call." finished-at="2019-04-24T18:34:38Z" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythepaymentserviceforthebillpayid -->
+        <test-method signature="verifythepaymentservicefortheInvalidbillpayid()[pri:5, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:38Z" name="verifythepaymentservicefortheInvalidbillpayid" description="Verify response of the payment service by providing the invalid billing plan id to fetch the billing details." finished-at="2019-04-24T18:34:39Z" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythepaymentservicefortheInvalidbillpayid -->
+        <test-method signature="createsaleTransaction_OldCustomer_NewCreaditcardRegistration()[pri:6, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:39Z" name="createsaleTransaction_OldCustomer_NewCreaditcardRegistration" description="Verify create Sale Transaction" finished-at="2019-04-24T18:34:41Z" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsaleTransaction_OldCustomer_NewCreaditcardRegistration -->
+        <test-method signature="updateBPRequest()[pri:7, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:41Z" name="updateBPRequest" description="Update Billing plan Request" finished-at="2019-04-24T18:34:42Z" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBPRequest -->
+        <test-method signature="createsaleTransaction_NewCustomer_NewCreaditcardRegistration()[pri:8, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:42Z" name="createsaleTransaction_NewCustomer_NewCreaditcardRegistration" description="Verify create Sale Transaction with New customer and new Credit card" finished-at="2019-04-24T18:34:43Z" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsaleTransaction_NewCustomer_NewCreaditcardRegistration -->
+        <test-method signature="createsaleTransactionforsubscriptionwithpaymentmethod()[pri:9, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:43Z" name="createsaleTransactionforsubscriptionwithpaymentmethod" description="Create Sale Transaction for Subscription with Payment method" finished-at="2019-04-24T18:34:46Z" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsaleTransactionforsubscriptionwithpaymentmethod -->
+        <test-method signature="createsaleTransactionforsimpleproductwithpaymentmethod()[pri:10, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:46Z" name="createsaleTransactionforsimpleproductwithpaymentmethod" description="Verify create Sale Transaction for simple product with payment method" finished-at="2019-04-24T18:34:49Z" duration-ms="2881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsaleTransactionforsimpleproductwithpaymentmethod -->
+        <test-method signature="createnewsubscriptionTransactionwithnewcustomerandcreditcard()[pri:11, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:49Z" name="createnewsubscriptionTransactionwithnewcustomerandcreditcard" description="Verify create Sale Transaction with new customer and credit card" finished-at="2019-04-24T18:34:50Z" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewsubscriptionTransactionwithnewcustomerandcreditcard -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.PaymentService@6f4a47c7]" started-at="2019-04-24T18:34:50Z" name="endReport" finished-at="2019-04-24T18:34:51Z" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.PaymentService -->
+    </test> <!-- Little Passport Service Execution -->
+  </suite> <!--  BVT Test -->
+</testng-results>
