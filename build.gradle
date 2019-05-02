@@ -41,17 +41,7 @@ dependencies {
     implementation 'org.apache.poi:poi-ooxml:3.9'
     testCompile group: 'org.testng', name: 'testng', version: '6.9.9'
 }
- sourceSets {
-        main {
-                java {
-                        srcDirs= ["src/main/java"]
-                }
-                resources {
-                        srcDirs= ["src/main/resources"]
-                }
-        }
-}
-def payment = project.hasProperty("payment")
+ def payment = project.hasProperty("payment")
 def sms = project.hasProperty("sms")
 
 test {
