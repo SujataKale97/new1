@@ -1,6 +1,6 @@
 package LittlePassport.APITesting;
 
-public class Library {
+public class LibraryTest {
     public boolean someLibraryMethod() {
         return true;
     }
