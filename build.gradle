@@ -46,11 +46,12 @@ sourceSets {
     main {
         java {
             srcDirs = ["src"]
+            }
         }
      test {
         java {
             srcDirs = ["test"]
-        }
+            }
         }
     }
  def payment = project.hasProperty("payment")
